@@ -1,0 +1,9 @@
+
+reconfigurable_partition_group
+  partition_group_name = group0
+  interface = /home/rafa/Work/Vivado/Proyectos/mis_proyectos/IMPRESS_test/examples/example1/interface
+  reconfigurable_partition
+    partition_name = operation_0
+    pblock = X6Y10:X25Y19
+  end_reconfigurable_partition  
+end_reconfigurable_partition_group

@@ -1,0 +1,1648 @@
+11:17:34 **** Build of project example1_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling dmaps
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+
+**** Build of configuration Debug for project example1 ****
+
+Nothing to build for project example1
+11:18:06 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+../src/reconfig_pcap.c:13:16: fatal error: ff.h: No such file or directory
+src/subdir.mk:21: recipe for target 'src/reconfig_pcap.o' failed
+ #include "ff.h"
+                ^
+compilation terminated.
+make: *** [src/reconfig_pcap.o] Error 1
+11:18:29 **** Auto Build of project example1_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xilffs_v3_7/src
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling dmaps
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v3_7/src
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling XilFFs Library
+ff.c: In function 'find_volume':
+ff.c:2610:4: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+    && (LD_DWORD(fs->win+FSI_LeadSig) == 0x41615252U)
+    ^~
+diskio.c:135:11: warning: 'ExtCsd' defined but not used [-Wunused-variable]
+ static u8 ExtCsd[512] __attribute__ ((aligned(32)));
+           ^~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+11:18:40 **** Auto Build of project example1_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xilffs_v3_7/src
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling dmaps
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v3_7/src
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling XilFFs Library
+ff.c: In function 'find_volume':
+ff.c:2610:4: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+    && (LD_DWORD(fs->win+FSI_LeadSig) == 0x41615252U)
+    ^~
+diskio.c:135:11: warning: 'ExtCsd' defined but not used [-Wunused-variable]
+ static u8 ExtCsd[512] __attribute__ ((aligned(32)));
+           ^~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+11:18:51 **** Clean-only build of configuration Debug for project example1 ****
+make clean 
+rm -rf  ./src/reconfig_pcap.o  ./src/reconfig_pcap.d  example1.elf.size  example1.elf
+ 
+11:18:51 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c: In function 'PCAP_RAM_write':
+../src/reconfig_pcap.c:363:44: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:363:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:372:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c:489:55: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                       ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:489:112: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                                                                                ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c: In function 'PCAP_RAM_read':
+../src/reconfig_pcap.c:684:44: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:684:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:693:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+../src/reconfig_pcap.c: In function 'write_subclock_region_PBS':
+../src/reconfig_pcap.c:929:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+../src/reconfig_pcap.c:948:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+../src/reconfig_pcap.c:965:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+src/subdir.mk:21: recipe for target 'src/reconfig_pcap.o' failed
+make: *** [src/reconfig_pcap.o] Error 1
+11:19:01 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c: In function 'PCAP_RAM_write':
+../src/reconfig_pcap.c:363:44: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:363:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:372:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c:489:55: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                       ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:489:112: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                                                                                ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c: In function 'PCAP_RAM_read':
+../src/reconfig_pcap.c:684:44: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:684:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:693:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+../src/reconfig_pcap.c: In function 'write_subclock_region_PBS':
+../src/reconfig_pcap.c:929:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+../src/reconfig_pcap.c:948:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+../src/reconfig_pcap.c:965:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+make: *** [src/reconfig_pcap.o] Error 1
+src/subdir.mk:24: recipe for target 'src/reconfig_pcap.o' failed
+11:40:43 **** Build of project example1_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xilffs_v3_7/src
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v3_7/src
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling XilFFs Library
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+11:40:52 **** Clean-only build of configuration Debug for project example1 ****
+make clean 
+rm -rf  ./src/main.o ./src/reconfig_pcap.o  ./src/main.d ./src/reconfig_pcap.d  example1.elf.size  example1.elf
+ 
+11:40:52 **** Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c: In function 'PCAP_RAM_write':
+../src/reconfig_pcap.c:363:44: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:363:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:372:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c:489:55: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                       ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:489:112: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                                                                                ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c: In function 'PCAP_RAM_read':
+../src/reconfig_pcap.c:684:44: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:684:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:693:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+../src/reconfig_pcap.c: In function 'write_subclock_region_PBS':
+../src/reconfig_pcap.c:929:30: error: subscripted value is neither array nor pointer nor vector
+src/subdir.mk:24: recipe for target 'src/reconfig_pcap.o' failed
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+../src/reconfig_pcap.c:948:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+../src/reconfig_pcap.c:965:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+make: *** [src/reconfig_pcap.o] Error 1
+11:41:57 **** Auto Build of project example1_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xilffs_v3_7/src
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v3_7/src
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling XilFFs Library
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+11:42:05 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c: In function 'PCAP_RAM_write':
+../src/reconfig_pcap.c:363:44: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:363:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:372:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c:489:55: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                       ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:489:112: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                                                                                ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c: In function 'PCAP_RAM_read':
+../src/reconfig_pcap.c:684:44: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:684:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:693:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+../src/reconfig_pcap.c: In function 'write_subclock_region_PBS':
+../src/reconfig_pcap.c:929:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+../src/reconfig_pcap.c:948:30: error: subscripted value is neither array nor pointer nor vector
+src/subdir.mk:24: recipe for target 'src/reconfig_pcap.o' failed
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+../src/reconfig_pcap.c:965:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+make: *** [src/reconfig_pcap.o] Error 1
+11:42:12 **** Auto Build of project example1_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xilffs_v3_7/src
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling dmaps
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v3_7/src
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling XilFFs Library
+ff.c: In function 'find_volume':
+ff.c:2610:4: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+    && (LD_DWORD(fs->win+FSI_LeadSig) == 0x41615252U)
+    ^~
+diskio.c:135:11: warning: 'ExtCsd' defined but not used [-Wunused-variable]
+ static u8 ExtCsd[512] __attribute__ ((aligned(32)));
+           ^~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+11:42:22 **** Clean-only build of configuration Debug for project example1 ****
+make clean 
+rm -rf  ./src/main.o ./src/reconfig_pcap.o  ./src/main.d ./src/reconfig_pcap.d  example1.elf.size  example1.elf
+ 
+11:42:22 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c: In function 'PCAP_RAM_write':
+../src/reconfig_pcap.c:363:44: error: subscripted value is neither array nor pointer nor vector
+src/subdir.mk:24: recipe for target 'src/reconfig_pcap.o' failed
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:363:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:372:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c:489:55: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                       ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:489:112: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                                                                                ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c: In function 'PCAP_RAM_read':
+../src/reconfig_pcap.c:684:44: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:684:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:693:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+../src/reconfig_pcap.c: In function 'write_subclock_region_PBS':
+../src/reconfig_pcap.c:929:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+../src/reconfig_pcap.c:948:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+../src/reconfig_pcap.c:965:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+make: *** [src/reconfig_pcap.o] Error 1
+12:02:54 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:7:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main() {
+      ^~~~
+../src/main.c: In function 'main':
+../src/main.c:8:28: error: expected expression before 'XDcfg'
+  write_subclock_region_PBS(XDcfg *InstancePtr, u32 *addr_start, const char *file_name, pblock pblock_list[], u32 num_pblocks, u32 erase_bram) {
+                            ^~~~~
+../src/main.c:8:2: error: too few arguments to function 'write_subclock_region_PBS'
+  write_subclock_region_PBS(XDcfg *InstancePtr, u32 *addr_start, const char *file_name, pblock pblock_list[], u32 num_pblocks, u32 erase_bram) {
+  ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:1:0:
+../src/reconfig_pcap.h:344:5: note: declared here
+ int write_subclock_region_PBS(XDcfg *InstancePtr, u32 *addr_start, const char *file_name, pblock pblock_list[], u32 num_pblocks, u32 erase_bram);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:8:143: error: expected ';' before '{' token
+  write_subclock_region_PBS(XDcfg *InstancePtr, u32 *addr_start, const char *file_name, pblock pblock_list[], u32 num_pblocks, u32 erase_bram) {
+                                                                                                                                               ^
+../src/main.c:10:1: error: expected declaration or statement at end of input
+ }
+ ^
+make: *** [src/main.o] Error 1
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+12:07:42 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main() {
+      ^~~~
+In file included from ../../example1_bsp/ps7_cortexa9_0/include/xdevcfg.h:171:0,
+                 from ../src/reconfig_pcap.h:13,
+                 from ../src/main.c:1:
+../src/main.c: In function 'main':
+../../example1_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:15:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/main.c:8:6: note: declared here
+ void main() {
+      ^~~~
+In file included from ../../example1_bsp/ps7_cortexa9_0/include/xdevcfg.h:171:0,
+                 from ../src/reconfig_pcap.h:13,
+                 from ../src/main.c:1:
+../../example1_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:25:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/main.c:8:6: note: declared here
+ void main() {
+      ^~~~
+In file included from ../../example1_bsp/ps7_cortexa9_0/include/xdevcfg.h:171:0,
+                 from ../src/reconfig_pcap.h:13,
+                 from ../src/main.c:1:
+../../example1_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:30:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/main.c:8:6: note: declared here
+ void main() {
+      ^~~~
+Finished building: ../src/main.c
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c: In function 'PCAP_RAM_write':
+../src/reconfig_pcap.c:363:44: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:363:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:372:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c:489:55: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                       ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:489:112: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                                                                                ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c: In function 'PCAP_RAM_read':
+../src/reconfig_pcap.c:684:44: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:684:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:693:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+../src/reconfig_pcap.c: In function 'write_subclock_region_PBS':
+../src/reconfig_pcap.c:929:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+src/subdir.mk:24: recipe for target 'src/reconfig_pcap.o' failed
+                              ^
+../src/reconfig_pcap.c:948:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+../src/reconfig_pcap.c:965:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+make: *** [src/reconfig_pcap.o] Error 1
+12:09:38 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:12:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main() {
+      ^~~~
+In file included from ../../example1_bsp/ps7_cortexa9_0/include/xdevcfg.h:171:0,
+                 from ../src/reconfig_pcap.h:13,
+                 from ../src/main.c:1:
+../src/main.c: In function 'main':
+../../example1_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:19:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/main.c:12:6: note: declared here
+ void main() {
+      ^~~~
+In file included from ../../example1_bsp/ps7_cortexa9_0/include/xdevcfg.h:171:0,
+                 from ../src/reconfig_pcap.h:13,
+                 from ../src/main.c:1:
+../../example1_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:29:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/main.c:12:6: note: declared here
+ void main() {
+      ^~~~
+In file included from ../../example1_bsp/ps7_cortexa9_0/include/xdevcfg.h:171:0,
+                 from ../src/reconfig_pcap.h:13,
+                 from ../src/main.c:1:
+../../example1_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:34:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/main.c:12:6: note: declared here
+ void main() {
+      ^~~~
+Finished building: ../src/main.c
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c: In function 'PCAP_RAM_write':
+../src/reconfig_pcap.c:363:44: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:363:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:372:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c:489:55: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                       ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:489:112: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                                                                                ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c: In function 'PCAP_RAM_read':
+../src/reconfig_pcap.c:684:44: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:684:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:693:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+../src/reconfig_pcap.c: In function 'write_subclock_region_PBS':
+../src/reconfig_pcap.c:929:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+../src/reconfig_pcap.c:948:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+../src/reconfig_pcap.c:965:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+src/subdir.mk:24: recipe for target 'src/reconfig_pcap.o' failed
+make: *** [src/reconfig_pcap.o] Error 1
+12:09:58 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c: In function 'PCAP_RAM_write':
+../src/reconfig_pcap.c:363:44: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:363:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:372:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+In file included from ../src/reconfig_pcap.c:12:0:
+../src/reconfig_pcap.c:489:55: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                       ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:489:112: error: subscripted value is neither array nor pointer nor vector
+                     Data = PCAP_SetupFar7S((fpga[y][x][0] & (0xFF << 24))>>24, PCAP_FAR_BRAM_BLOCK, (fpga[y][x][0] & (0xFF << 16))>>16, fpga_bram[y][x] & 0xFFFF, 0);
+                                                                                                                ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c: In function 'PCAP_RAM_read':
+../src/reconfig_pcap.c:684:44: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                            ^
+../src/reconfig_pcap.h:266:4: note: in definition of macro 'PCAP_SetupFar7S'
+  ((Top << PCAP_FAR_TOP_BOTTOM_SHIFT) | \
+    ^~~
+../src/reconfig_pcap.c:684:101: error: subscripted value is neither array nor pointer nor vector
+         Data = PCAP_SetupFar7S((fpga[y][x0][0] & (0xFF << 24))>>24, PCAP_FAR_CLB_BLOCK, (fpga[y][x0][0] & (0xFF << 16))>>16, x0, 0);
+                                                                                                     ^
+../src/reconfig_pcap.h:267:3: note: in definition of macro 'PCAP_SetupFar7S'
+  (Row << PCAP_FAR_ROW_ADDR_SHIFT) | \
+   ^~~
+../src/reconfig_pcap.c:693:38: error: subscripted value is neither array nor pointer nor vector
+             TotalWords += (fpga[y][x][0] & 0xFFFF) * NUM_FRAME_WORDS;
+                                      ^
+../src/reconfig_pcap.c: In function 'write_subclock_region_PBS':
+../src/reconfig_pcap.c:929:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+../src/reconfig_pcap.c:948:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+../src/reconfig_pcap.c:965:30: error: subscripted value is neither array nor pointer nor vector
+       num_frames = fpga[y][x][0] & 0xFFFF;
+                              ^
+make: *** [src/reconfig_pcap.o] Error 1
+src/subdir.mk:24: recipe for target 'src/reconfig_pcap.o' failed
+12:14:44 **** Clean-only build of configuration Debug for project example1 ****
+make clean 
+rm -rf  ./src/main.o ./src/reconfig_pcap.o  ./src/main.d ./src/reconfig_pcap.d  example1.elf.size  example1.elf
+ 
+12:14:45 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:1:27: fatal error: reconfig_pcap.h: No such file or directory
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+ #include "reconfig_pcap.h"
+                           ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+12:15:08 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+Finished building: ../src/reconfig_pcap.c
+ 
+Building file: ../src/xc7z020.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xc7z020.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xc7z020.d" -MT"src/xc7z020.o" -o "src/xc7z020.o" "../src/xc7z020.c"
+Finished building: ../src/xc7z020.c
+ 
+Building target: example1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example1_bsp/ps7_cortexa9_0/lib -o "example1.elf"  ./src/main.o ./src/reconfig_pcap.o ./src/xc7z020.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: example1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example1.elf  |tee "example1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64872	   1204	  26000	  92076	  167ac	example1.elf
+Finished building: example1.elf.size
+ 
+12:16:42 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:17:28 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:20:46 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:21:40 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:26:03 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: example1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example1_bsp/ps7_cortexa9_0/lib -o "example1.elf"  ./src/main.o ./src/reconfig_pcap.o ./src/xc7z020.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: example1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example1.elf  |tee "example1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64888	   1204	  26000	  92092	  167bc	example1.elf
+Finished building: example1.elf.size
+ 
+12:26:06 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:26:28 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:27:51 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:28:59 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:38:57 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:39:16 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:41:36 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: example1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example1_bsp/ps7_cortexa9_0/lib -o "example1.elf"  ./src/main.o ./src/reconfig_pcap.o ./src/xc7z020.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: example1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example1.elf  |tee "example1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64884	   1204	  26000	  92088	  167b8	example1.elf
+Finished building: example1.elf.size
+ 
+12:41:37 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:43:57 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:50:45 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: example1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example1_bsp/ps7_cortexa9_0/lib -o "example1.elf"  ./src/main.o ./src/reconfig_pcap.o ./src/xc7z020.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: example1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example1.elf  |tee "example1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64884	   1204	  26000	  92088	  167b8	example1.elf
+Finished building: example1.elf.size
+ 
+12:51:23 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:42:28 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:42:50 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:44:07 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:46:29 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:56:29 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:57:29 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:59:17 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:15:03 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: example1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example1_bsp/ps7_cortexa9_0/lib -o "example1.elf"  ./src/main.o ./src/reconfig_pcap.o ./src/xc7z020.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: example1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example1.elf  |tee "example1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64868	   1204	  26000	  92072	  167a8	example1.elf
+Finished building: example1.elf.size
+ 
+15:15:04 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:15:29 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:16:13 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:19:21 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+../src/reconfig_pcap.c: In function 'PCAP_RAM_read':
+../src/reconfig_pcap.c:768:9: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
+         Xil_DCacheDisable();
+         ^~~~~~~~~~~~~~~~~
+Finished building: ../src/reconfig_pcap.c
+ 
+Building target: example1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example1_bsp/ps7_cortexa9_0/lib -o "example1.elf"  ./src/main.o ./src/reconfig_pcap.o ./src/xc7z020.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: example1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example1.elf  |tee "example1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64884	   1204	  26000	  92088	  167b8	example1.elf
+Finished building: example1.elf.size
+ 
+15:19:23 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:20:02 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+../src/reconfig_pcap.c: In function 'PCAP_RAM_read':
+../src/reconfig_pcap.c:647:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
+     Xil_DCacheDisable();
+     ^~~~~~~~~~~~~~~~~
+Finished building: ../src/reconfig_pcap.c
+ 
+Building target: example1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example1_bsp/ps7_cortexa9_0/lib -o "example1.elf"  ./src/main.o ./src/reconfig_pcap.o ./src/xc7z020.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: example1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example1.elf  |tee "example1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64884	   1204	  26000	  92088	  167b8	example1.elf
+Finished building: example1.elf.size
+ 
+15:20:08 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:20:52 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+../src/reconfig_pcap.c: In function 'PCAP_RAM_read':
+../src/reconfig_pcap.c:727:9: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
+         Xil_DCacheDisable();
+         ^~~~~~~~~~~~~~~~~
+Finished building: ../src/reconfig_pcap.c
+ 
+Building target: example1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example1_bsp/ps7_cortexa9_0/lib -o "example1.elf"  ./src/main.o ./src/reconfig_pcap.o ./src/xc7z020.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: example1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example1.elf  |tee "example1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64884	   1204	  26000	  92088	  167b8	example1.elf
+Finished building: example1.elf.size
+ 
+15:20:56 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:21:37 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+../src/reconfig_pcap.c: In function 'PCAP_RAM_read':
+../src/reconfig_pcap.c:734:9: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
+         Xil_DCacheDisable();
+         ^~~~~~~~~~~~~~~~~
+Finished building: ../src/reconfig_pcap.c
+ 
+Building target: example1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example1_bsp/ps7_cortexa9_0/lib -o "example1.elf"  ./src/main.o ./src/reconfig_pcap.o ./src/xc7z020.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: example1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example1.elf  |tee "example1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64884	   1204	  26000	  92088	  167b8	example1.elf
+Finished building: example1.elf.size
+ 
+15:21:42 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:28:54 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+../src/reconfig_pcap.c: In function 'PCAP_RAM_write':
+../src/reconfig_pcap.c:397:9: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+         Xil_DCacheFlush();
+         ^~~~~~~~~~~~~~~
+Finished building: ../src/reconfig_pcap.c
+ 
+Building target: example1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example1_bsp/ps7_cortexa9_0/lib -o "example1.elf"  ./src/main.o ./src/reconfig_pcap.o ./src/xc7z020.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: example1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example1.elf  |tee "example1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64884	   1204	  26000	  92088	  167b8	example1.elf
+Finished building: example1.elf.size
+ 
+15:29:23 **** Auto Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/reconfig_pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reconfig_pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/reconfig_pcap.d" -MT"src/reconfig_pcap.o" -o "src/reconfig_pcap.o" "../src/reconfig_pcap.c"
+Finished building: ../src/reconfig_pcap.c
+ 
+Building target: example1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example1_bsp/ps7_cortexa9_0/lib -o "example1.elf"  ./src/main.o ./src/reconfig_pcap.o ./src/xc7z020.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: example1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example1.elf  |tee "example1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64884	   1204	  26000	  92088	  167b8	example1.elf
+Finished building: example1.elf.size
+ 
+15:29:28 **** Incremental Build of configuration Debug for project example1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.

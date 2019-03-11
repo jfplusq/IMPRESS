@@ -1,0 +1,3 @@
+SUCCESS: static module
+SUCCESS: partition: group0, module: multiplier
+SUCCESS: partition: group0, module: adder

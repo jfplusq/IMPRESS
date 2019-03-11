@@ -1,0 +1,36 @@
+Ver como añadir en el BSP bloques que no estan
+
+Modificar el tema de la SD, y tambien en el reconfiguration engine poner que las funciones de alfonso solo lean y escriban en una fila de la FPGA y cambiarlas el nombre para que quede reflejado, asi mismo hacer una funcion que sea leer una cierta zona. Tambien hacer que si se lee una columna entera de reloj no haya que componer el bitstream si no que simplemente se llame a la funcion de alfonso
+
+blackbox automática mejorada
+
+Hacer que se pueda llamar a las funciones desde un proyecto abierto sin tener que rellenar el file de info del proyecto (solo se necesitaria la arquitectura virtual)
+
+Hacer un documento en el que se explique el funcionamiento de la herramienta
+
+Como hacer la interfaz de un modulo sabiendo que compatible con otro modulo.
+
+Hacer el clock management en tiempo real
+
+Para poder no tener en cuenta lo del snapping mode hay 2 posibles opciones reducior el numero de relojes a 4 o que cuando se reconfiguren bloques sea obligatorio reconfigurar ciertos frames del bloque de al lado. Como de dificil es hacer esto en un reconfiguration engine en vhdl?
+
+Ver lo de los nodos especiales (los que tienen una pip al lado como los que pasan de una región de reloj a otra situada en la vertical) al calcular la fence
+
+Ver como una vez el usuario ponga los pblocks en un proyecto directamente se saque la arquitectura virtual 
+
+hacer que se puedan tener fuentes en una carpeta y no haya que poner todos los vhdl
+
+Sacar del XCI el vhdl superior que lo contiene. Los vhdl llamarlos top_<nombre_xci> porque si no puede dar problemas... 
+
+Ver si esparcir los partition pins entre todas la tiles disponibles.
+
+Ver si en los partition pin hacer una manera para que cuando se coloquen los partition pin y tengamos varias zonas se alineen de manera que vaya en el sentido de reloj horario (actualmene en las zonas norte y sur se va de izquierda a derecha y en las zonas este y oeste de abajo a arriba)
+
+cuando pongamos la ultrascale como fuerza el snapping mode es necesario modificar los pblocks para que el snapping mode no solo quite bloues si no que por un lado los quite y por el otro los añada
+
+Añadir la posibilidad de incrementar la cantidad de partition pins. Estudiar continuar con la conexión de extremo pero con nets que vaya de una a la de abajo
+
+
+
+
+

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2017.3 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xc7z020_1" gui_info="dashboard1=hw_vios[xc7z020_1/hw_vio_1=VIO_PROBES_1;]"/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7z020_1" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value="/media/storage/Work/Vivado/Proyectos/mis_proyectos/IMPRESS_test/examples/example1/example1_build/BITSTREAMS/probes.ltx"/>
+      <Properties Property="PROBES.FILE" value="/media/storage/Work/Vivado/Proyectos/mis_proyectos/IMPRESS_test/examples/example1/example1_build/BITSTREAMS/probes.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="/media/storage/Work/Vivado/Proyectos/mis_proyectos/IMPRESS_test/examples/example1/example1_build/BITSTREAMS/example1_build.bit"/>
+      <Properties Property="SLR.COUNT" value="/media/storage/Work/Vivado/Default_log_vivado/1"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_probe" gui_info="">
+    <Object name="design_1_i/black_box_operation_0_DataOut[31:0]" gui_info="hw_vios/hw_vio_1=0"/>
+    <Object name="design_1_i/vio_0_probe_out0[31:0]" gui_info="hw_vios/hw_vio_1=1"/>
+    <Object name="design_1_i/vio_0_probe_out1[31:0]" gui_info="hw_vios/hw_vio_1=2"/>
+  </ObjectList>
+  <ObjectList object_type="hw_vio" gui_info="">
+    <Object name="hw_vio_1" gui_info="hw_vios/hw_vio_1/TablePreference=5	719	Name	0	2147483647	15	358	358	Value	1	2147483647	15	138	138	Activity	2	2147483647	15	70	70	Direction	3	2147483647	15	83	83	VIO	4	2147483647	15	70	70			1	6	1	Name	Value	Activity	Direction	VIO"/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="vio_input" busType="bus" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="INPUT_VALUE_RADIX" value="UNSIGNED"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/black_box_operation_0_DataOut[31]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[30]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[29]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[28]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[27]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[26]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[25]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[24]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[23]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[22]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[21]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[20]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[19]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[18]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[17]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[16]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[15]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[14]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[13]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[12]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[11]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[10]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[9]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[8]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[7]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[6]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[5]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[4]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[3]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[2]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[1]"/>
+        <net name="design_1_i/black_box_operation_0_DataOut[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="26"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="UNSIGNED"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/vio_0_probe_out0[31]"/>
+        <net name="design_1_i/vio_0_probe_out0[30]"/>
+        <net name="design_1_i/vio_0_probe_out0[29]"/>
+        <net name="design_1_i/vio_0_probe_out0[28]"/>
+        <net name="design_1_i/vio_0_probe_out0[27]"/>
+        <net name="design_1_i/vio_0_probe_out0[26]"/>
+        <net name="design_1_i/vio_0_probe_out0[25]"/>
+        <net name="design_1_i/vio_0_probe_out0[24]"/>
+        <net name="design_1_i/vio_0_probe_out0[23]"/>
+        <net name="design_1_i/vio_0_probe_out0[22]"/>
+        <net name="design_1_i/vio_0_probe_out0[21]"/>
+        <net name="design_1_i/vio_0_probe_out0[20]"/>
+        <net name="design_1_i/vio_0_probe_out0[19]"/>
+        <net name="design_1_i/vio_0_probe_out0[18]"/>
+        <net name="design_1_i/vio_0_probe_out0[17]"/>
+        <net name="design_1_i/vio_0_probe_out0[16]"/>
+        <net name="design_1_i/vio_0_probe_out0[15]"/>
+        <net name="design_1_i/vio_0_probe_out0[14]"/>
+        <net name="design_1_i/vio_0_probe_out0[13]"/>
+        <net name="design_1_i/vio_0_probe_out0[12]"/>
+        <net name="design_1_i/vio_0_probe_out0[11]"/>
+        <net name="design_1_i/vio_0_probe_out0[10]"/>
+        <net name="design_1_i/vio_0_probe_out0[9]"/>
+        <net name="design_1_i/vio_0_probe_out0[8]"/>
+        <net name="design_1_i/vio_0_probe_out0[7]"/>
+        <net name="design_1_i/vio_0_probe_out0[6]"/>
+        <net name="design_1_i/vio_0_probe_out0[5]"/>
+        <net name="design_1_i/vio_0_probe_out0[4]"/>
+        <net name="design_1_i/vio_0_probe_out0[3]"/>
+        <net name="design_1_i/vio_0_probe_out0[2]"/>
+        <net name="design_1_i/vio_0_probe_out0[1]"/>
+        <net name="design_1_i/vio_0_probe_out0[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="26"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="UNSIGNED"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/vio_0_probe_out1[31]"/>
+        <net name="design_1_i/vio_0_probe_out1[30]"/>
+        <net name="design_1_i/vio_0_probe_out1[29]"/>
+        <net name="design_1_i/vio_0_probe_out1[28]"/>
+        <net name="design_1_i/vio_0_probe_out1[27]"/>
+        <net name="design_1_i/vio_0_probe_out1[26]"/>
+        <net name="design_1_i/vio_0_probe_out1[25]"/>
+        <net name="design_1_i/vio_0_probe_out1[24]"/>
+        <net name="design_1_i/vio_0_probe_out1[23]"/>
+        <net name="design_1_i/vio_0_probe_out1[22]"/>
+        <net name="design_1_i/vio_0_probe_out1[21]"/>
+        <net name="design_1_i/vio_0_probe_out1[20]"/>
+        <net name="design_1_i/vio_0_probe_out1[19]"/>
+        <net name="design_1_i/vio_0_probe_out1[18]"/>
+        <net name="design_1_i/vio_0_probe_out1[17]"/>
+        <net name="design_1_i/vio_0_probe_out1[16]"/>
+        <net name="design_1_i/vio_0_probe_out1[15]"/>
+        <net name="design_1_i/vio_0_probe_out1[14]"/>
+        <net name="design_1_i/vio_0_probe_out1[13]"/>
+        <net name="design_1_i/vio_0_probe_out1[12]"/>
+        <net name="design_1_i/vio_0_probe_out1[11]"/>
+        <net name="design_1_i/vio_0_probe_out1[10]"/>
+        <net name="design_1_i/vio_0_probe_out1[9]"/>
+        <net name="design_1_i/vio_0_probe_out1[8]"/>
+        <net name="design_1_i/vio_0_probe_out1[7]"/>
+        <net name="design_1_i/vio_0_probe_out1[6]"/>
+        <net name="design_1_i/vio_0_probe_out1[5]"/>
+        <net name="design_1_i/vio_0_probe_out1[4]"/>
+        <net name="design_1_i/vio_0_probe_out1[3]"/>
+        <net name="design_1_i/vio_0_probe_out1[2]"/>
+        <net name="design_1_i/vio_0_probe_out1[1]"/>
+        <net name="design_1_i/vio_0_probe_out1[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

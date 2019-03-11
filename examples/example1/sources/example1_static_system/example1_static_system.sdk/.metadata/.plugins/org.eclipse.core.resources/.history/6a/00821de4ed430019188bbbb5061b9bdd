@@ -1,0 +1,10 @@
+#include "reconfig_pcap.h"
+
+#define PCAP_ID 						XPAR_XDCFG_0_DEVICE_ID
+#define INITIAL_ADDR_RAM 				0x11100000  //The initial address where we store the PBS in the RAM.
+
+
+void main() {
+	write_subclock_region_PBS(XDcfg *InstancePtr, u32 *addr_start, const char *file_name, pblock pblock_list[], u32 num_pblocks, u32 erase_bram) {
+	write_subclock_region_PBS(XDcfg *InstancePtr, u32 *addr_start, const char *file_name, pblock pblock_list[], u32 num_pblocks, u32 erase_bram) {
+}

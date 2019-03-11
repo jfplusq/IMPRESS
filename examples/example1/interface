@@ -1,0 +1,10 @@
+local_nets
+  Data1 NORTH
+  Data2 NORTH
+  DataOut SOUTH
+  reset NORTH
+end_local_nets
+
+global_nets
+	clk 0
+end_global_nets

@@ -1,0 +1,27 @@
+project_variables
+  project_name = example1_build
+  directory = /home/rafa/Work/Vivado/Proyectos/mis_proyectos/IMPRESS_test/examples/example1/
+  fpga_chip = xc7z020clg400-1
+end_project_variables
+
+static_sources
+  sources = /home/rafa/Work/Vivado/Proyectos/mis_proyectos/IMPRESS_test/examples/example1/sources/example1_static_system/synth_example1_static_system.dcp
+end_static_sources
+
+reconfigurable_modules
+  reconfigurable_module
+    module_name = multiplier
+    sources = /home/rafa/Work/Vivado/Proyectos/mis_proyectos/IMPRESS_test/examples/example1/sources/reconfigurable_modules/multiplier.vhd
+    partition_group_name = group0
+  end_reconfigurable_module
+  
+  reconfigurable_module
+    module_name = adder
+    sources = /home/rafa/Work/Vivado/Proyectos/mis_proyectos/IMPRESS_test/examples/example1/sources/reconfigurable_modules/adder.vhd
+    partition_group_name = group0
+  end_reconfigurable_module
+end_reconfigurable_modules
+
+virtual_architecture 
+  sources = /home/rafa/Work/Vivado/Proyectos/mis_proyectos/IMPRESS_test/examples/example1/virtual_architecture
+end_virtual_architecture

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 4 resources" deleteContents="false" description="Delete 4 resources" element1="/example1/src/reconfig_pcap.c" element2="/example1/src/reconfig_pcap.h" element3="/example1/src/series7.h" element4="/example1/src/xc7z020.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1552302884542"/>
+</session>
