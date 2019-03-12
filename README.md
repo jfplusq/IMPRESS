@@ -17,4 +17,9 @@ The project contains four different folders:
   * Fill the input templates (see example1)
   * In Vivado add the following command in the TCL console "source (path to IMPRESS)/reconfiguration_tool_library/reconfiguration_tool.tcl" 
   * In Vivado add the following command in the TCL console "implement_reconfigurable_design (path to project_info file)"
+  
+## Citation
 
+Use the following paper to cite this work.
+
+R. Zamacola, A. G. Martínez, J. Mora, A. Otero and E. d. L. Torre, "IMPRESS: Automated Tool for the Implementation of Highly Flexible Partial Reconfigurable Systems with Xilinx Vivado," 2018 International Conference on ReConFigurable Computing and FPGAs (ReConFig), Cancun, Mexico, 2018, pp. 1-8.
