@@ -839,8 +839,8 @@ int PCAP_RAM_read(XDcfg *InstancePtr, u32 **addr_start, u32 x0, u32 y0, u32 xf, 
 * @return XST_SUCCESS else XST_FAILURE.
 *
 *****************************************************************************/
-int write_subclock_region_PBS(XDcfg *InstancePtr, u32 *addr_start, const char *file_name, pblock pblock_list[], u32 num_pblocks, u32 erase_bram) {
 	int initial_clock_region_row, final_clock_region_row, words_per_half_clock_region_without_clock;
+int write_subclock_region_PBS(XDcfg *InstancePtr, u32 *addr_start, const char *file_name, pblock pblock_list[], u32 num_pblocks, u32 erase_bram) {
 	int first_rows_not_used, first_words_not_used, last_rows_not_used, last_words_not_used;
 	int first_half_bytes_to_move, first_half_first_unused_bytes, last_half_bytes_to_move, last_half_first_unused_bytes;
 	int num_frames;

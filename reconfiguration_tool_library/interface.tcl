@@ -263,6 +263,7 @@ namespace eval ::reconfiguration_tool::interface {
         set last_X [lindex $last_X_list $i]
         set first_Y [lindex $first_Y_list $i]
         set last_Y [lindex $last_Y_list $i]
+        puts "1111111"
         set expanded_INT_tiles [get_tiles -filter "TYPE =~ INT_? && INT_TILE_X == [expr $tile_position + $first_X] && INT_TILE_Y <= [expr $first_Y - 1] && INT_TILE_Y >= [expr $first_Y - 2]"]
         if {[llength $expanded_INT_tiles] != 2 || [::struct::set intersect $expanded_INT_tiles $all_INT_tiles_pblock] != {}} {
           set prohibited_tiles [concat $prohibited_tiles $tile_position]

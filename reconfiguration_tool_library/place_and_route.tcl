@@ -368,12 +368,13 @@ namespace eval ::reconfiguration_tool::place_and_route {
     
     create_property -type int GLOBAL_NET_POSITION net -quiet
     foreach net_name $global_nets {
-      set nets [get_nets -of_objects [get_pins -hierarchical -filter "REF_PIN_NAME == $net_name"] -filter "TYPE == GLOBAL_CLOCK"]
+      #set nets [get_nets -of_objects [get_pins -hierarchical -filter "REF_PIN_NAME == $net_name"] -filter "TYPE == GLOBAL_CLOCK"]
+      set nets [get_nets -of_objects [get_pins -hierarchical -filter "REF_PIN_NAME == $net_name"] -filter "TYPE =~ *CLOCK"]
       if {$nets == {}} {
         #If we are routing a reconfigurable module it is possible that it does not contain all the global nets.
         continue
       } else {
-        route_design -unroute -nets $nets 
+        # route_design -unroute -nets $nets 
         set position [dict get $global_nets_info all_global_nets $net_name position]
         #We add one to not have the zero value because when searching for nets with the property set to 0 gives problems
         set_property GLOBAL_NET_POSITION [expr $position + 1] $nets
@@ -389,12 +390,14 @@ namespace eval ::reconfiguration_tool::place_and_route {
   # Return Value:
   ########################################################################################
   proc route_global_nets {} {  
-    set global_nets [get_nets -hierarchical -filter "GLOBAL_NET_POSITION > 0 && ROUTE_STATUS != ROUTED"]
-    if {[llength $global_nets] == 0} {
+    set all_global_nets [get_nets -hierarchical -filter "TYPE =~ *CLOCK"]
+    route_design -unroute -nets $all_global_nets
+    set reconfigurable_global_nets [get_nets -hierarchical -filter "GLOBAL_NET_POSITION > 0 && ROUTE_STATUS != ROUTED"]
+    if {[llength $reconfigurable_global_nets] == 0} {
       return
     }
     
-    set global_position [lsort -integer -unique [get_property GLOBAL_NET_POSITION $global_nets]]
+    set global_position [lsort -integer -unique [get_property GLOBAL_NET_POSITION $reconfigurable_global_nets]]
     set all_global_nodes [all_global_nodes]
     set used_nodes [list]
     
@@ -438,6 +441,9 @@ namespace eval ::reconfiguration_tool::place_and_route {
           set_property HD.PARTPIN_LOCS [dict get $partition_pins_dict $pin] $pin
         }
     }
+    # We route the global nets that are not reconfigurable without fences. The 
+    # reconfigurable nets are not route as they are fixed 
+    route_design -nets [struct::set difference $all_global_nets $nets] -quiet 
   }
   
   ########################################################################################
@@ -473,6 +479,7 @@ namespace eval ::reconfiguration_tool::place_and_route {
   ########################################################################################
   proc all_global_nodes {} {
     set tiles_clock [get_tiles -filter "TYPE =~ *CLK*"]
-    return [get_nodes -of_objects $tiles_clock -filter "NAME =~ *HCLK_LEAF_CLK_B_* || NAME =~ *CLK_HROW_CK_BUFHCLK_*"]
+    return [get_nodes -of_objects $tiles_clock -filter "NAME =~ *HCLK_LEAF_CLK_B_*"]
+    # return [get_nodes -of_objects $tiles_clock -filter "NAME =~ *HCLK_LEAF_CLK_B_* || NAME =~ *CLK_HROW_CK_BUFHCLK_*"]
   }
 }

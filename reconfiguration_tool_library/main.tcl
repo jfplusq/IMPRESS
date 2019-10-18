@@ -111,7 +111,7 @@ namespace eval ::reconfiguration_tool {
     set project_name [dict get $project_variables project_name]
     
     create_empty_design
-
+    
     # We parse the interface file.
     if {[catch {obtain_interface_info} errmsg]} {
       log_error "ERROR -> $errmsg"
@@ -151,7 +151,6 @@ namespace eval ::reconfiguration_tool {
       log_error "ERROR -> module: static, type: $errmsg" static_system
       return 
     }
-
     foreach reconfigurable_partition_group $reconfigurable_partition_group_list {
       place_pblocks_reconfigurable_partition_type $reconfigurable_partition_group "static"
     }
@@ -178,7 +177,7 @@ namespace eval ::reconfiguration_tool {
       if {[catch place_the_design errmsg]} {
         log_error "ERROR -> module: static, type: $errmsg" static_system
         return 
-      }
+      } 
       if {[catch {route_design_with_fence static} errmsg]} {
         log_error "ERROR -> module: static, type: $errmsg" static_system
         return 
@@ -218,7 +217,7 @@ namespace eval ::reconfiguration_tool {
     set project_name [dict get $project_variables project_name]
     synthesize_reconfigurable_module $reconfigurable_module
     set module_name [dict get $reconfigurable_module module_name]
-    set partition_group_name_list [dict get $reconfigurable_module partition_group_name_list]
+    set partition_group_name_list [dict get $reconfigurable_module partition_group_name_list] 
     foreach partition_group_name $partition_group_name_list {
       # We loop into all the reconfigurable partitions in order to find the 
       # reconfigurable_partition_group with the name partition_group_name
@@ -237,13 +236,13 @@ namespace eval ::reconfiguration_tool {
       add_global_buffers_to_reconfigurable_partition $reconfigurable_partition_group
       add_static_dummy_logic $reconfigurable_partition_group
       add_hierarchical_reconfigurable_dummy_logic $reconfigurable_partition_group
-      place_fine_grain_LUTs_reconfigurable_partition $reconfigurable_partition_group
+      place_fine_grain_LUTs_reconfigurable_partition $reconfigurable_partition_group 
       opt_design
       if {[catch place_the_design errmsg]} {
         log_error "ERROR -> partition: ${partition_group_name}, module: ${module_name}, type: $errmsg" ${partition_group_name}_${module_name}
         continue 
       }
-
+      
       if {[catch {route_design_with_fence reconfigurable} errmsg]} {
         log_error "ERROR -> partition: ${partition_group_name}, module: ${module_name}, type: $errmsg" ${partition_group_name}_${module_name}
         continue 
@@ -253,8 +252,15 @@ namespace eval ::reconfiguration_tool {
         log_error "ERROR -> partition: ${partition_group_name}, module: ${module_name}, type: $errmsg" ${partition_group_name}_${module_name}
         continue 
       }
-      extract_hierarchical_cell_info $reconfigurable_partition_group $module_name
-      log_success "SUCCESS: partition: ${partition_group_name}, module: ${module_name}"
+      # In design with encrypted IPs the design reconstruction can not be done as it is  
+      # not possible modify the netlist to remove route through LUTs. Therefore, we 
+      # don't consider an error if this happens but we notify the user. 
+      set design_reconstruction_log ""
+      if {[catch {extract_hierarchical_cell_info $reconfigurable_partition_group $module_name} errmsg]} {
+        set design_reconstruction_log "NOTE: Design reconstruction information could not be obtained"
+      }
+      
+      log_success "SUCCESS: partition: ${partition_group_name}, module: ${module_name}. $design_reconstruction_log"
     }
   }
 }

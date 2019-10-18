@@ -69,28 +69,43 @@ namespace eval ::reconfiguration_tool::design_reconstruction  {
     # won't swap pin positions when it places the dessign. 
     array unset lut_array 
     foreach loadpin $reconfigurable_load_pins {  
+      
       set pin [lindex [split $loadpin /] end]
       set belpin [lindex [split [get_bel_pins -of $loadpin] /] end]
-      set beltype [get_bel_pins -of $loadpin]
+      set beltype [get_bel_pins -of $loadpin] 
+      set route_through_pin [lindex $beltype 0]
       # Create hash table of LUT names and pin assignments, appending when needed
       if {[regexp (LUT) $beltype]} {
         
         if {[llength $beltype] > 1} {
+            
             #If there is more than one beltype this means that there is a route through LUT, to fix the 
             #pin assignation it is necessary to insert a dummy lut to have a logical elementey that 
-            #maps the physical LUT. If this is not done is not possible to place a LOCK_PINS constraint
+            #maps the physical LUT. If this is not done is not possible to place a LOCK_PINS constraint            
             set net [get_nets -of_objects $loadpin]
-            set_property DONT_TOUCH 0 $net
-            # set route_net [get_property ROUTE $net]
+            set route_net [get_property ROUTE $net]
+            set net_segments [get_nets -segments -of_objects $loadpin]
+            set_property DONT_TOUCH 0 $net_segments
             set parent_cell [get_cells -of_objects $loadpin]
+            
+            # We search all the cells that are connected through the same LUT           
+            set LUT_through_pins [list]
+            set all_connected_pins [get_pins -of_objects $net_segments -filter "IS_LEAF == 1 && DIRECTION == IN"] 
+            foreach individual_pin $all_connected_pins {
+              set route_through_individual_pin [lindex [get_bel_pins -of $individual_pin]  0]
+              if {$route_through_individual_pin == $route_through_pin} {
+                set LUT_through_pins [concat $LUT_through_pins $individual_pin]
+              }
+            }
+            
             set cell_name "${parent_cell}_${belpin}_route_through_LUT_inserted"
             create_cell -reference LUT1 $cell_name
             set_property INIT 2'h2 [get_cells $cell_name] ;#equation for LUT1 buffer
             set net_inserted "${parent_cell}_${belpin}_route_through_net_inserted"
             create_net $net_inserted
-            disconnect_net -net $net -objects $loadpin
+            disconnect_net -net $net_segments -objects $LUT_through_pins
+            connect_net -hierarchical -net $net_inserted -objects [concat $LUT_through_pins $cell_name/O]
             connect_net -net $net -objects $cell_name/I0
-            connect_net -net $net_inserted -objects [list $loadpin $cell_name/O]
             
             foreach beltype_pin $beltype {
               if {[regexp (LUT) $beltype]} {
@@ -108,7 +123,7 @@ namespace eval ::reconfiguration_tool::design_reconstruction  {
             
             #We reconstruct pin association 
             set_property LOCK_PINS "$pin:$belpin" [get_cells $lut]
-            # set_property ROUTE $route_net $net
+            set_property ROUTE $route_net $net
             #select belpin y poner un LOC y BEL constraint a la LUT creada  
         } else {
           # set index [expr [string length $loadpin] - 4]
@@ -147,7 +162,11 @@ namespace eval ::reconfiguration_tool::design_reconstruction  {
     #internal routes are routed correctly 
     set internal_reconfigurable_cells [get_cells -hierarchical -filter "(PRIMITIVE_LEVEL == LEAF || PRIMITIVE_LEVEL == MACRO)  && REF_NAME !~ *BUF* && PARENT != dummy"]
     set slice_type SLICE\[LM\]+\.
-    set bel_type_list  {D.LUT \[B-C\]+.LUT \[A-D\]+FF A.LUT CARRY. \[A-D\]+5FF}
+    # We change a little the order from the paper (experimentally I have found error 
+    # in their order). As this is done experimentally it is possible that some minor 
+    # changes are needed to route all the designs.
+    # set bel_type_list  {D.LUT A.LUT B.LUT C.LUT \[A-D\]+FF CARRY. \[A-D\]+5FF} #funciona con el diseño de ARTICO
+    set bel_type_list  {D.LUT \[A-D\]+FF A.LUT B.LUT C.LUT CARRY. \[A-D\]+5FF} ;#funciona con el diseño de ARTICO
     set grouped_cells_by_BEL ""
     foreach bel_type $bel_type_list {
       set bel ${slice_type}${bel_type}
@@ -237,7 +256,7 @@ namespace eval ::reconfiguration_tool::design_reconstruction  {
     close $fileID
 
     set dummy_cells [get_cells dummy]
-    set local_interface_nets [get_nets -of_objects $dummy_cells -filter "TYPE != GLOBAL_CLOCK"]
+    set local_interface_nets [get_nets -of_objects $dummy_cells -filter "TYPE !~ *CLOCK"]
     set_property IS_ROUTE_FIXED 1 $local_interface_nets
     set_property HD.partition 1 $dummy_cells
     update_design -cells $dummy_cells -black_box
@@ -373,12 +392,12 @@ namespace eval ::reconfiguration_tool::design_reconstruction  {
       }
     }
 
-    set local_interface_nets [get_nets -of_objects $cell -filter "TYPE != GLOBAL_CLOCK"]
-    set global_interface_nets [get_nets -of_objects $cell -filter "TYPE == GLOBAL_CLOCK"]
+    set local_interface_nets [get_nets -of_objects $cell -filter "TYPE !~ *CLOCK"]
+    set global_interface_nets [get_nets -of_objects $cell -filter "TYPE =~ *CLOCK"]
     set local_pins [get_pins -of_objects $local_interface_nets -filter "PARENT_CELL == $cell"]
     
     #We create a dict with the partition pins of the dict
-    set partition_pin_dict [dict create]
+    set all_partition_pin_dict [dict create]
     foreach pin $local_pins {
       set partition_pin [get_property HD.PARTPIN_LOCS $pin]
       dict set all_partition_pin_dict $pin $partition_pin
@@ -428,7 +447,7 @@ namespace eval ::reconfiguration_tool::design_reconstruction  {
     set nets_with_problems ""
     set index ""
     set hand_routing_pins "" 
-    set local_interface_nets [get_nets -of_objects $cell -filter "TYPE != GLOBAL_CLOCK"]
+    set local_interface_nets [get_nets -of_objects $cell -filter "TYPE !~ *CLOCK"]
     foreach local_net $local_interface_nets {
       #We need to search all the segments of the nets because it can converge with other nets. 
       #So in order to find all the pins connected to the same physical net it is necessary to select 

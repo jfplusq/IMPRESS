@@ -158,6 +158,30 @@ namespace eval ::reconfiguration_tool::input_output_documents {
       }
     }
     close $fileId 
+    modify_reconfigurable_module_list_all_partitions 
+  } 
+  
+  ########################################################################################
+  # This function checks if any module is meant to be reconfigured in all the possible 
+  # partitions and changes the string all_partitions to the name of all the partitions.
+  ########################################################################################
+  proc modify_reconfigurable_module_list_all_partitions {} {
+    variable ::reconfiguration_tool::reconfigurable_module_list
+    variable ::reconfiguration_tool::reconfigurable_partition_group_list 
+    
+    set new_reconfigurable_module_list {}
+    foreach reconfigurable_module $reconfigurable_module_list {
+      set partition_group_name_list [dict get $reconfigurable_module partition_group_name_list]
+      if {$partition_group_name_list == "all_partitions"} {
+        set new_partition_group_name_list {}
+        foreach reconfigurable_partition  $reconfigurable_partition_group_list {
+          set new_partition_group_name_list [concat $new_partition_group_name_list [dict get $reconfigurable_partition partition_group_name]]
+        }
+        set reconfigurable_module [dict replace $reconfigurable_module partition_group_name_list $new_partition_group_name_list]
+      }
+      lappend new_reconfigurable_module_list $reconfigurable_module 
+    }
+    set reconfigurable_module_list $new_reconfigurable_module_list
   }
 
   ########################################################################################

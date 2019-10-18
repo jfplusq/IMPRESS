@@ -91,11 +91,11 @@ namespace eval ::reconfiguration_tool::netlist {
         default {}
       }
     }
-    # NOTE We add constraints so the tools can't make RAM and ROM memories in a 
+
+    # NOTE We add constraints so the tools can't make RAM memories in a 
     # distributed fashion. This is done because previous experience at CEI has shown that 
     # in some models this could lead to problems.
-    read_xdc [file join $working_directory "auxiliary_tools" "ROM_RAM_constraints.xdc"]
-    
+    read_xdc [file join $working_directory "auxiliary_tools" "ROM_RAM_constraints.xdc"]    
     # NOTE the no_srlextract option is enabled because previous experience at CEI has  
     # shown that in some models this could lead to problems.
     if {$need_to_synthesize == 1} {
@@ -103,6 +103,7 @@ namespace eval ::reconfiguration_tool::netlist {
         error "synthesis error. Module: ${module_name}"
       }
     }
+    
     set_property DONT_TOUCH 1 [get_nets]
     set module_name [dict get $reconfigurable_module module_name]
     write_checkpoint [file join ${directory} ${project_name} SYNTHESIS ${module_name}_reconfigurable_module]   
@@ -537,11 +538,12 @@ namespace eval ::reconfiguration_tool::netlist {
     set global_nets [dict keys [dict get $global_nets_info all_global_nets]]
     foreach net_name $global_nets {
       #Check if there in already a BUFG
-      set net_complete [get_nets -segments -of_objects [get_pins -of_objects [get_cells -hierarchical -filter {RECONFIGURABLE_PARTITION == TRUE}] -filter "REF_PIN_NAME == $net_name"]]
-      set net [get_nets -of_objects [get_pins -of_objects [get_cells -hierarchical -filter {RECONFIGURABLE_PARTITION == TRUE}] -filter "REF_PIN_NAME == $net_name"]]
-      if {[llength [get_cells -of_objects $net_complete -filter {REF_NAME == "BUFG"}]] == 0} {
-        insert_clock_buffer BUFG $net 
+      set pin [get_pins -of_objects [get_cells -hierarchical -filter {RECONFIGURABLE_PARTITION == TRUE}] -filter "REF_PIN_NAME == $net_name"]
+      set net_complete [get_nets -segments -of_objects $pin]
+      if {[llength [get_cells -of_objects $net_complete -filter {REF_NAME =~ "BUFG*" || REF_NAME =~ "BUFH*"}]] == 0} {
+        insert_clock_buffer_in_pin BUFG $pin 
       }
+      set net [get_nets -of_objects $pin]
       set_property DONT_TOUCH TRUE $net
     }
   }
@@ -594,19 +596,45 @@ namespace eval ::reconfiguration_tool::netlist {
   proc insert_clock_buffer { type nets } {
      foreach net $nets {
         #The last requirement is required for systems with ILA
-        set driver [get_pins -quiet -of [get_nets $net] -filter "DIRECTION==OUT && (REF_NAME == IBUF || PARENT_CELL =~ [get_property PARENT_CELL $net]/*)"]
+        # set driver [get_pins -quiet -of [get_nets -segments $net] -filter "DIRECTION==OUT && (REF_NAME == IBUF || PARENT_CELL =~ [get_property PARENT_CELL $net]/*)"] 
+        set driver [get_pins -quiet -of $net -filter "DIRECTION==OUT && (REF_NAME == IBUF || PARENT_CELL =~ [get_property PARENT_CELL $net]/*)"]
+        set net_driver [get_nets -of_objects $driver]
         if {[llength $driver]} {
-           set cell "${net}_${type}_inserted"
-           disconnect_net -net $net -objects $driver
+           set cell "${net_driver}_${type}_inserted"
+           disconnect_net -net $net_driver -objects $driver
            create_cell -reference $type $cell
-           create_net ${net}_inserted
-           connect_net -net ${net}_inserted -objects [list $driver $cell/I]
-           connect_net -net ${net} -objects $cell/O
+           create_net ${net_driver}_inserted
+           connect_net -net ${net_driver}_inserted -objects [list $driver $cell/I]
+           connect_net -net ${net_driver} -objects $cell/O
         } else {
            puts "ERROR: Could not find leaf level driver for net $net. Make sure the specified net is at the same level of hierarchy as the leaf level driver."
         }
      }
   }
+  
+  ########################################################################################
+  # Inserts a clock buffer (BUFG, BUFHCE, BUFR, etc) on the specified pin. 
+  #
+  # Argument Usage:
+  # type: buffer type to insert i.e. BUFG, BUFHCE, BUFR, etc
+  # pin: pin where the buffer will be inserted
+  #
+  # Return Value:
+  ########################################################################################
+  proc insert_clock_buffer_in_pin {type pin} {
+    set net [get_nets -of_objects $pin] 
+    set dont_touch_property [get_property DONT_TOUCH $net]
+    set_property DONT_TOUCH	false $net 
+    set cell "${net}_${type}_inserted"
+    disconnect_net -net $net -objects $pin 
+    create_cell -reference $type $cell
+    create_net ${net}_inserted 
+    connect_net -net ${net}_inserted -objects [list $pin $cell/O]
+    connect_net -net ${net} -objects $cell/I
+    set_property DONT_TOUCH $dont_touch_property $net
+  }
+  
+
 
   ########################################################################################
   # Inserts a LUT buffer in a pin. It is useful in cases where a power net (GND or VCC) 
@@ -650,7 +678,7 @@ namespace eval ::reconfiguration_tool::netlist {
        puts "ERROR: Could not find driver for net $net"
     }
   }
-
+ 
   ########################################################################################
   # Adds n dummy LUTs for each global net (where n is the number of columns in the 
   # reconfigurable partition). This is done in order to activate the PIPS of the clock row 
@@ -669,15 +697,13 @@ namespace eval ::reconfiguration_tool::netlist {
     if {$global_nets_info == ""} {
       return 
     }
-
     set cell [get_cells -hierarchical ${partition_name} -filter "RECONFIGURABLE_PARTITION == 1"]
+    set hierarchical_cells ${cell}/ 
     if {[dict exist $global_nets_info $partition_group_name] == 0} {
       return
     }
     set global_nets [dict keys [dict get $global_nets_info $partition_group_name]]
     set number_global_nets [llength $global_nets]
-    set max_number_of_nets_per_LUT 6
-    set number_of_LUTS [expr ($number_global_nets / $max_number_of_nets_per_LUT) + 1] 
     set pblock_sites [get_sites -of_objects [get_pblocks -of_objects $cell]]
     set clock_regions [get_clock_regions -of_objects $pblock_sites]
     set pblock_tiles [get_tiles -of_objects $pblock_sites]
@@ -685,51 +711,128 @@ namespace eval ::reconfiguration_tool::netlist {
       set net [get_nets -of_objects [get_pins -of_objects [get_cells $cell] -filter "REF_PIN_NAME == $net_name"] -boundary_type lower]
       set_property DONT_TOUCH FALSE $net
     }
+    
     foreach clock_region $clock_regions {
       set clock_region_tiles [get_tiles -of_objects $clock_region]
       set intersect_tiles [get_tiles -of_objects [lsort -dictionary [::struct::set intersect $clock_region_tiles $pblock_tiles]]]
       set x_coordinates [lsort -integer -unique [get_property GRID_POINT_X [get_tiles -of_objects $intersect_tiles -filter {TYPE =~ *CLB*}]]]
-      set y_coordenates [lsort -integer -decreasing -unique [get_property GRID_POINT_Y [get_tiles -of_objects $intersect_tiles -filter {TYPE =~ *CLB*}]]]
-      set max_y_coordenate [lindex $y_coordenates [expr [llength $y_coordenates] -1]]
-      set min_y_coordenate [lindex $y_coordenates 0]
-      set hierarchical_cells ${cell}/
-      foreach x_coordinate $x_coordinates {
-        #NOTE We allow up to 24 global nets
-        set down_LUT_sites [get_sites -of_objects [get_tiles -filter "TYPE =~ *CLB* && GRID_POINT_Y == $min_y_coordenate && GRID_POINT_X == $x_coordinate"]]
-        for {set i 0} {$i < $number_of_LUTS} {incr i} {
-          set dummy_up_LUT_name${i} ${hierarchical_cells}dummy_LUT_global_nets_${clock_region}_x${x_coordinate}_up_${i}
-          create_cell -reference LUT6 [set dummy_up_LUT_name${i}]
-          set number_of_LUTS_per_SLICE 4
-          set SLICE_index [expr $i / $number_of_LUTS_per_SLICE] 
-          set_property LOC [lindex $down_LUT_sites $SLICE_index] [get_cells [set dummy_up_LUT_name${i}]]
-        }
-        set up_LUT_sites [get_sites -of_objects [get_tiles -filter "TYPE =~ *CLB* && GRID_POINT_Y == $max_y_coordenate && GRID_POINT_X == $x_coordinate"]]
-        for {set i 0} {$i < $number_of_LUTS} {incr i} {
-          set dummy_down_LUT_name${i} ${hierarchical_cells}dummy_LUT_global_nets_${clock_region}_x${x_coordinate}_down_${i}
-          create_cell -reference LUT6 [set dummy_down_LUT_name${i}]
-          set number_of_LUTS_per_SLICE 4
-          set SLICE_index [expr $i / $number_of_LUTS_per_SLICE] 
-          set_property LOC [lindex $up_LUT_sites $SLICE_index] [get_cells [set dummy_down_LUT_name${i}]]
-        }      
-        set i 0
-        foreach net_name $global_nets {
-          set LUT_number [expr $i / $max_number_of_nets_per_LUT]
-          set LUT_pin [expr $i % $max_number_of_nets_per_LUT]
-          set pins [get_pins -of [get_cells ${hierarchical_cells}dummy_LUT_global_nets_${clock_region}_x${x_coordinate}*${LUT_number}] -filter "DIRECTION == IN && NAME =~ */I$i*"]
-          if {$pins != {} } {
-            set net [get_nets -of_objects [get_pins -of_objects [get_cells $cell] -filter "REF_PIN_NAME == $net_name"] -boundary_type lower]
-            connect_net -net $net -objects $pins 
+      set y_coordenates [lsort -integer -decreasing -unique [get_property INT_TILE_Y [get_tiles -of_objects $intersect_tiles -filter {TYPE =~ *CLB*}]]]
+      set high_y_coordenate [lindex $y_coordenates end]
+      set low_y_coordenate [lindex $y_coordenates 0]
+      # We check that we can allocate all the global nets   
+      set num_rows_in_clock_region 50
+      set high_y_coordenate_relative [expr $high_y_coordenate % $num_rows_in_clock_region]
+      set low_y_coordenate_relative [expr $low_y_coordenate % $num_rows_in_clock_region]
+      set rows_in_upper_part [expr ($num_rows_in_clock_region / 2) - $high_y_coordenate_relative]
+      set rows_in_lower_part [expr $low_y_coordenate_relative - (($num_rows_in_clock_region / 2) - 1)]
+      set min_rows [expr min($rows_in_upper_part,$rows_in_lower_part)]
+      
+      # How many FF with differenct clock can we place by row (i.e. 2 for series 7)
+      set max_FF_per_row 1 ; #Sometime Vivado throws placement errors when I have this to 2 i dont know why...
+      # We see if we need to use LUTs. In some designs adding LUTs has cause problems. So
+      # we only added if necessary
+      if {(($number_global_nets / $max_FF_per_row) + 1) > $min_rows} {
+        set max_nets_to_LUTs 2
+      } else {
+        set max_nets_to_LUTs 0
+      }
+      #How many global nets can we have per row 
+      set global_nets_per_row [expr $max_FF_per_row + $max_nets_to_LUTs]
+      
+      set number_of_rows_needed [expr ($number_global_nets / $global_nets_per_row) + 1]
+      if {$rows_in_upper_part > 0} {
+        if {$number_of_rows_needed > $rows_in_upper_part} {
+          error "there are more global nets that can be allocated in the upper part of $partition_name in \ 
+          clock region $clock_region. There are $rows_in_upper_part that can allocate a maximum of \ 
+          ($rows_in_upper_part * $global_nets_per_row) nets."
+        } 
+
+        foreach x_coordinate $x_coordinates {
+          set net_position 0
+          for {set i 0} {$i < $number_of_rows_needed} {incr i} {
+            set row [expr $high_y_coordenate + $i]
+            set CLB_sites [get_sites -of_objects [get_tiles -filter "TYPE =~ *CLB* && INT_TILE_Y == $row && GRID_POINT_X == $x_coordinate"]]
+            for {set j 0} {$j < $global_nets_per_row} {incr j} {
+              if {$net_position < $number_global_nets} {
+                set pin_name [lindex $global_nets $net_position]
+                set net [get_nets -of_objects [get_pins -of_objects [get_cells $cell] -filter "REF_PIN_NAME == $pin_name"] -boundary_type lower] 
+                incr net_position          
+                set dummy_cell ${hierarchical_cells}dummy_global_nets_${clock_region}_x${x_coordinate}_up_row${i}_element${j}
+                connect_net_to_cell $dummy_cell $j $net $CLB_sites   
+              }
+            }
           }
-          incr i
+        }
+      }
+      if {$rows_in_lower_part > 0} {
+        if {$number_of_rows_needed > $rows_in_lower_part} {
+          error "there are more global nets that can be allocated in the upper part of $partition_name in \ 
+          clock region $clock_region. There are $rows_in_upper_part that can allocate a maximum of \ 
+          ($rows_in_upper_part * $global_nets_per_row) nets."
+        }
+        foreach x_coordinate $x_coordinates {
+          set net_position 0
+          for {set i 0} {$i < $number_of_rows_needed} {incr i} {
+            set row [expr $low_y_coordenate - $i]
+            set CLB_sites [get_sites -of_objects [get_tiles -filter "TYPE =~ *CLB* && INT_TILE_Y == $row && GRID_POINT_X == $x_coordinate"]]
+            for {set j 0} {$j < $global_nets_per_row} {incr j} {
+              if {$net_position < $number_global_nets} {
+                set pin_name [lindex $global_nets $net_position]
+                set net [get_nets -of_objects [get_pins -of_objects [get_cells $cell] -filter "REF_PIN_NAME == $pin_name"] -boundary_type lower] 
+                incr net_position
+                set dummy_cell ${hierarchical_cells}dummy_global_nets_${clock_region}_x${x_coordinate}_down_row${i}_element${j}
+                connect_net_to_cell $dummy_cell $j $net $CLB_sites                   
+              }
+            }
+          }
         }
       }
     }
+    
     foreach net_name $global_nets {
       set net [get_nets -of_objects [get_pins -of_objects [get_cells $cell] -filter "REF_PIN_NAME == $net_name"] -boundary_type lower]
       set_property DONT_TOUCH TRUE $net
     }
   }
-
+  
+  ########################################################################################
+  # Helper function of add_dummy_logic_to_global_nets. Creates a cell that will be  
+  # connected to the net 
+  #
+  # Argument Usage:
+  # dummy_cell
+  # 
+  #
+  # Return Value:
+  ########################################################################################
+  proc connect_net_to_cell {dummy_cell position net CLB_sites} {
+    switch -exact -- $position {
+      0 {
+        create_cell -reference FDRE $dummy_cell
+        set_property LOC [lindex $CLB_sites 0] [get_cells $dummy_cell]
+        set pin [get_pins -of [get_cells $dummy_cell] -filter "DIRECTION == IN && NAME =~ */C*"]                    
+      }
+      1 {
+        create_cell -reference FDRE $dummy_cell
+        set_property LOC [lindex $CLB_sites 1] [get_cells $dummy_cell]
+        set pin [get_pins -of [get_cells $dummy_cell] -filter "DIRECTION == IN && NAME =~ */C*"]
+        
+      }
+      2 {
+        create_cell -reference LUT2 $dummy_cell
+        set_property LOC [lindex $CLB_sites 1] [get_cells $dummy_cell]
+        set pin [get_pins -of [get_cells $dummy_cell] -filter "DIRECTION == IN && NAME =~ */I0*"]
+      }
+      3 {
+        set pin [get_pins -of [get_cells ${hierarchical_cells}dummy_global_nets_${clock_region}_x${x_coordinate}_up_row${i}_element2] -filter "DIRECTION == IN && NAME =~ */I1*"]
+      }
+      default {}
+    }
+    connect_net -net $net -objects $pin    
+  }
+  
+  
+  
   ########################################################################################
   # Updates a netlist by changing one reconfigurable module for other. The new module 
   # needs to be synthesized in a design check point (DCP) and to be saved in the SYNTHESIS 
